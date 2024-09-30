@@ -1,0 +1,31 @@
+.containerStyle {
+    width: 80% !important;
+    margin-inline: auto;
+}
+
+
+.backgroundStyle {
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+
+.backgroundStyle:hover {
+    opacity: 0.9;
+}
+
+
+.imgStyle {
+    height: 25.75rem;
+}
+
+.buttonStyle{
+    background-color:unset !important ;
+    border: 0 !important;
+    color: black !important;
+
+}
+
+.buttonStyle:hover , .buttonStyle:focus {
+    color: #0d6efd !important;
+}
